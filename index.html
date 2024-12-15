@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/883455edab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Creator/Developer</p>
+                <h1>Hi, I'm <span>Satyam</span><br>Kumar.</h1>
+            </div>
+        
+        </div>
+    </div>
+    <!--about me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_0035.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me.</span></h1>
+                    <p>Hey I'm a Web Developer And Creator. I Pursuing My Bachelor Degree In Computer Science  From Galgotias University. I'm Currently Lived In Noida. My Hobbies Is readig a Book , Playing Online Games Like Pubg ,Etc.
+                         I'm Hard Worker & Self Motivating Person.  </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Website.</li>
+                            <li><span>Java Developer</span><br>Designing App or Gui Based Application .</li>
+                        </ul>
+                    </div>  
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>Fresher</span><br>Its My Pleasure If You Give Me a Opportunity.</li>
+                            
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th</span><br>From DAV PUBLIC SCHOOL,GAYA.</li>
+                            <li><span>12th</span><br>From HARAN CHAND H/S,GAYA .</li>
+                            <li><span>Virtual Intenship</span><br>AWS Cloud Virtual Intenship. <br> <li> Zscaler Cybersecurity Virtual Intenship. <br><li>AI-ML Virtual Internship</li></li>
+                            <li><span>Certificates</span> <br>English Language For Competitive Exam From NPTEL. <br><li>Training and Developement From NPTEL.</li></li>
+                        </ul>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Services.</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design.</h2>
+                <p>The Customer is very Important , the Customer will folowed by the Customer. But there's no such thing as a Developer. </p>
+                <a href="#">Learn more </a>
+            </div>
+            
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>APP Design.</h2>
+                <p>The Customer is very Important , the Customer will folowed by the Customer. But there's no such thing as a Developer. </p>
+                <a href="#">Learn more </a>
+            </div>
+            
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Developer.</h2>
+                <p>The Customer is very Important , the Customer will folowed by the Customer. But there's no such thing as a Developer. </p>
+                <a href="#">Learn more </a>
+            </div>
+        </div>
+    </div>
+<!---portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Work.</h1>
+        <div class="worke-list">
+            <div class="work">
+                <img src="images/web.jpg"   >
+                <div class="layer">
+                    <h3>Social media website</h3>
+                    <p>This Website Connect You To The With Me.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/attendance-manger-app.jpg" >
+                <div class="layer">
+                    <h3>Student attendance App.</h3>
+                    <p>This App Help To Manage Student Attendance.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/jvm1.jpg" >
+                <div class="layer">
+                    <h3>ATM Using Face Id.</h3>
+                    <p>This Desktop App You To All ATM Faciltity And Provide Extra Functionality.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More.</a>
+    </div>
+</div>    
+
+</div>
+
+<!---contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span>Me.</span></h1>
+                <p><i class="fa-solid fa-envelope"></i> satyamamarth@gmail.com</a></p>
+                <p><a href="tel:+917366807176"><i class="fa-solid fa-phone"></i></a>+917366807176</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/" target="_main"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/amarth_sam/" target="_main"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="tel:+917366807176"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/amarth-satyam-a21663315/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/SATYAM KUMAR RESUME.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn3 ">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i>Satyam Kumar Made By <i class="fa-regular fa-heart"></i> Amarth.</p>
+    </div>
+</div>
+
+    <script src="port.js"></script>
+
+   
+
+
+</body>
+</html>
